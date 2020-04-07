@@ -176,7 +176,7 @@ func main() {
 	// This mutation will fail because the mana field is not available in
 	// the buffer. It should be set when creating the buffer.
 	if ok := monster.MutateMana(20); !ok {
-		panic("failed to mutate Hp")
+		panic("failed to mutate Mana")
 	}
 }
 
